@@ -1,0 +1,21 @@
+.Navigation{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    height: 100%;
+   margin: 0 14px;
+   padding: 0;
+    text-align: left;
+     
+
+
+}
+
+@media (min-width:500px) {
+    .Navigation{
+    
+        flex-direction: row;
+      
+    
+    }    
+}

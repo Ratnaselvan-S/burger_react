@@ -1,0 +1,32 @@
+.Container{
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 10px 10px 30px black;
+    width: 40%;
+    margin: auto;
+    height: 40%;
+    box-sizing: border-box;
+    padding: 5px 20px;
+    top:100px;
+    position: relative  ;
+    
+}
+
+.Error{
+    color: red;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 600px) {
+    .Container{
+        
+        width: 80%;
+        margin: auto;
+        /* height: 200px; */
+    }
+    
+    
+  }
+  
